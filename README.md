@@ -43,7 +43,7 @@ python -m venv .venv
 pip install -e ".[dev]"
 ```
 
-Create `api/.env`:
+Copy `api/.env.example` to `api/.env`, then configure it:
 
 ```dotenv
 SUPABASE_URL=https://YOUR_PROJECT.supabase.co
@@ -70,7 +70,7 @@ Useful endpoints include:
 
 Prerequisites: Node.js 22.13+ and Expo Go or a simulator.
 
-Create `mobile/.env` with the computer's LAN address:
+Copy `mobile/.env.example` to `mobile/.env` and use the computer's LAN address:
 
 ```dotenv
 EXPO_PUBLIC_API_URL=http://YOUR-LAN-IP:8000
